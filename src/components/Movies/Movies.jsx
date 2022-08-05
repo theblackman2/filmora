@@ -13,7 +13,7 @@ function Movies() {
   const [loading, setLoading] = React.useState(false);
 
   React.useEffect(() => {
-    const url = `http://www.omdbapi.com/?s=${name}&apikey=da675bd2&`;
+    const url = `https://www.omdbapi.com/?s=${name}&apikey=da675bd2&`;
     setLoading(true);
     fetch(url)
       .then((response) => response.json())

@@ -10,7 +10,7 @@ function Show() {
 
   useEffect(() => {
     setLoading(true);
-    const url = `http://www.omdbapi.com/?i=${id}&apikey=da675bd2&`;
+    const url = `https://www.omdbapi.com/?i=${id}&apikey=da675bd2&`;
     fetch(url)
       .then((response) => response.json())
       .then((data) => setMovie(data))
