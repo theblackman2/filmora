@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .search{
@@ -44,4 +45,5 @@
   cursor: pointer;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  text-decoration: none;
 }

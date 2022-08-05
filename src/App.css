@@ -1,10 +1,20 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-button, input{
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button,
+input {
   all: unset;
 }

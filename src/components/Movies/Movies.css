@@ -1,0 +1,23 @@
+.movies{
+  background-color: #1A1B21;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.movies-container {
+  margin-top: 100px;
+}
+
+.all-movies,
+.movies-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found{
+  color: white;
+  font-weight: 700;
+}
